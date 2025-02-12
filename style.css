@@ -109,6 +109,14 @@ body{
 }
 .btn-flex{
     margin-top: 50px;
+    color: rgb(200, 255, 0) !important;
+    background-color: purple !important;
+    transition: 4s;
+}
+.btn-flex:hover {
+    color: rgb(0, 255, 255) !important;
+    background-color: blue !important;
+
 }
 .main-sect{
     gap: 1030px;
