@@ -1,0 +1,144 @@
+
+.header{
+    gap: 40px;
+    padding: 20px;
+    
+}
+.nav{
+    
+    gap: 20px;
+}
+.hr{
+  height: 10px ;
+  width:  50px;
+  
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", serif;
+    height: 2500px;
+}
+.m-img{
+    padding: 10px 40px;
+  
+}
+.main-word{
+    margin-left: 5px;
+}
+.logo{
+    gap: 15px;
+    padding-left: 140px;
+}
+.style{
+    text-decoration: none !important;
+    border-radius: 3px !important;
+    padding-left: 5px 30px !important;
+    font-size: 14px !important;
+    background-color:rgb(117, 110, 110) !important;
+    display: flex !important;
+    flex-direction: row;
+    text-transform: uppercase !important;
+    transition: 0.3s ease !important;
+    color: white !important;
+    box-shadow: 0 0 15px green !important;
+}
+.style:hover{
+    background-color: rgb(22, 172, 22) !important;
+    transform: scale(1.1) !important;
+    box-shadow: 
+    0 0 15px green,
+    0 0 10px green,
+    0 0 5px green !important;
+
+}
+.src{
+    padding: 10px;
+    font-size: 10px;
+    border: 1px solid grey;
+    box-shadow: 0 0 15px green;
+    float: left;
+    width: 150px;
+    background: #f1f1f1;
+    transition: 0.3s ease-in-out;
+}
+.src:hover{
+
+    box-shadow: 
+    0 0 15px green,
+    0 0 10px green,
+    0 0 5px green;
+
+}
+.smb{
+    float: left;
+  width: 40px;
+  padding: 5px;
+  background: rgb(117, 110, 110);
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; 
+  cursor: pointer;
+  box-shadow: 0 0 15px green;
+  transition: 0.3s ease-in-out;
+}
+.smb:hover{
+    box-shadow: 
+    0 0 15px green,
+    0 0 10px green,
+    0 0 5px green;
+
+}
+.img-logo{
+    width: 90px;
+    height: 60px;
+    border-width: 2px;
+    border-color: white;
+}
+.card-flex{
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 250px !important;
+    height: 350px !important;
+    padding: 40px !important;
+    background-color: rgb(0, 162, 255) !important;
+    color: white !important;
+    font-size: 14Px !important;
+
+}
+.btn-flex{
+    margin-top: 50px;
+}
+.main-sect{
+    gap: 1030px;
+    display: flex;
+ 
+}
+.reserv{
+    padding: 50px 0px 10px 500px;
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.dt{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;}
+
+    .smus{
+       border-radius: 5px;
+    border-color: none;
+    color: white;
+    background-color: rgb(117, 110, 110);
+    box-shadow: 0 0 15px green;
+  transition: 0.3s ease-in-out;
+    }
+    .smus:hover{
+        box-shadow: 
+        0 0 25px green,
+        0 0 20px green,
+        0 0 10px green;
+    
+    }
