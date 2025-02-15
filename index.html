@@ -94,10 +94,28 @@
               <p class="card-text">Kottage for 2 person</p>
               <p class="card-text">Breakfast included</p>
               <p class="card-text">with sale 200 Gel</p>
-              <a href="#" class="btn-flex btn btn-primary">Get discount</a>
+
+              <a href="#" class="btn-flex btn btn-primary get-discount">Get discount</a>
+              
             </div>
           
 
+        </div>
+
+        <div id="discount-form" class="popup  card-flex1">
+          <div class="popup-content ">
+            <span class="close-btn">&times;</span>
+            <h3 class="get1">Fill The Form To Get Discount </h3>
+            <form>
+              <label for="name">Name</label>
+              <input type="text" id="name" required>
+              <label for="email">Email</label>
+              <input type="email" id="email" required>
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" required>
+              <button type="submit" class="btn-submit">Submit</button>
+            </form>
+          </div>
         </div>
        
         <div class=" card-flex card d-flex align-items-center">
@@ -107,11 +125,28 @@
             <p class="card-text">Kottage for 3 person</p>
             <p class="card-text">Breakfast included</p>
             <p class="card-text">with sale 300 Gel</p>
-            <a href="#" class="btn-flex btn btn-primary">Get discount</a>
+            <a href="#" class="btn-flex btn btn-primary get-discount1">Get discount</a>
           </div>
         
 
       </div>
+
+      <div id="discount-form1" class="popup  card-flex1">
+        <div class="popup-content">
+          <span class="close-btn1">&times;</span>
+          <h3>Fill The Form To Get Discount </h3>
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" required>
+            <button type="submit" class="btn-submit">Submit</button>
+          </form>
+        </div>
+      </div>
+
         <div class=" card-flex card d-flex align-items-center">
            
           <div class="card-body">
@@ -123,11 +158,16 @@
           </div>
 
         </div>
-        <div class="show d-flex align-items-center justify-content-center">
+        <div class="show d-flex align-items-center justify-content-center ">
+<div class="arow" id="pervArow">
+  <a class="prev m-s" onclick="plusSlides(-1)" style="cursor: pointer;">&#10094; </a>
+  
 
-          <img id="img-cottage" src="./unnamed.jpg" alt="photo"   style="cursor: pointer; width: 350px;
-          height: 350px;">
+          <img id="img-cottage" src="./unnamed.jpg" alt="photo"   style="cursor: pointer; width: 460px;
+          height: 350px; ">
+          <a class="next m-s" onclick="plusSlides(1)" style="cursor: pointer;">&#10095;</a>
           <script src="./java.js"></script>
+        </div>
         </div>
     </section>
     <script src="./java.js"></script>
